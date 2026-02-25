@@ -20,15 +20,13 @@ export default function Home() {
           functions under PhD student Shivansh Patel. I'm broadly interested in
           problems related to robotics, deep learning, and computer vision, but
           enjoy building anything and everything that I find interesting and
-          worthwhile. I'm also a member of SIGRobotics @ UIUC where I like to
-          build{" "}
-          <a href="https://www.hackster.io/sigrobotics/matcha-bot-sigrobotics-embodied-ai-hackathon-1st-place-f0e520">
-            cool things
-          </a>
-          .
+          worthwhile.
         </p>
 
         <div className="links">
+          <Link href="/projects" className="nav-link">
+            Projects
+          </Link>
           <Link href="/papershelf" className="nav-link">
             Papershelf
           </Link>
