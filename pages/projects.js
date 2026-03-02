@@ -11,6 +11,13 @@ const projects = [
     link: "https://www.hackster.io/sigrobotics/matcha-bot-sigrobotics-embodied-ai-hackathon-1st-place-f0e520",
   },
   {
+    title: "Synapse",
+    description:
+      "Winner @ HackIllinois 2026 & Best Use of Cloudflare. The most complete, scalable UI/UX feedback loop for developers. Turns user emotions, clicks, intent and direct, unfiltered feedback into automatic PRs.",
+    image: "/projects/synapse.png",
+    link: "https://devpost.com/software/synapse-dx7hcr",
+  },
+  {
     title: "MakeMIT: Photon",
     description:
       "Low-cost, effective handheld scanner-style gun that uses near-IR LEDs and lens filter to isolate and create depth mapping of veins. Built at MakeMIT",
