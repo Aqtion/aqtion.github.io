@@ -27,9 +27,6 @@ export default function Home() {
           <Link href="/projects" className="nav-link">
             Projects
           </Link>
-          <Link href="/papershelf" className="nav-link">
-            Papershelf
-          </Link>
           <a
             className="nav-link"
             href="https://github.com/Aqtion"
@@ -55,7 +52,7 @@ export default function Home() {
             X
           </a>
           <a className="nav-link" href="mailto:keshavbadrinath06@gmail.com">
-            Email
+            Contact
           </a>
         </div>
       </div>
