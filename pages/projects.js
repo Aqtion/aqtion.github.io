@@ -4,24 +4,33 @@ import Link from "next/link"
 
 const projects = [
   {
-    title: "Matcha Making Robot",
+    title: "Performative",
+    winnerLabel: "Winner @ NVIDIA x HuggingFace x Seeed Embodied AI Hackathon",
     description:
-      "1st place winner at NVIDIA x HuggingFace x Seeed Studio Embodied AI Hackathon. A robot that autonomously makes matcha using finetuned NVIDIA GR00T VLA and Jetson Thor for low latency inference.",
+      "A robot that autonomously makes matcha using finetuned NVIDIA GR00T-N1.5 VLA for bimanual manipulation and Jetson Thor for low latency inference.",
     image: "/projects/matcha-bot.png",
     link: "https://www.hackster.io/sigrobotics/matcha-bot-sigrobotics-embodied-ai-hackathon-1st-place-f0e520",
   },
   {
     title: "Synapse",
+    winnerLabel: "Winner @ HackIllinois 2026 & Best Use of Cloudflare.",
     description:
-      "Winner @ HackIllinois 2026 & Best Use of Cloudflare. The most complete, scalable UI/UX feedback loop for developers. Turns user emotions, clicks, intent and direct, unfiltered feedback into automatic PRs.",
+      "The most complete, scalable UI/UX feedback loop for developers. Turns user emotions, clicks, intent and direct, unfiltered feedback into automatic PRs.",
     image: "/projects/synapse.png",
     link: "https://devpost.com/software/synapse-dx7hcr",
   },
   {
-    title: "MakeMIT: Photon",
+    title: "Photon",
     description:
-      "Low-cost, effective handheld scanner-style gun that uses near-IR LEDs and lens filter to isolate and create depth mapping of veins. Built at MakeMIT",
+      "Low-cost, effective handheld scanner-style gun that uses near-IR LEDs and lens filter to isolate and create depth mapping of veins. Built at MakeMIT.",
     image: "/projects/photon.png",
+    link: "https://devpost.com/software/photon-hnrbsq",
+  },
+  {
+    title: "InvenTeam",
+    description:
+      "Led software on a patented device for referee communication to deaf athletes during sports games. Worked on this for all of high school, learned a lot about embedded programming, PCB design, and building robust firmware. Presented @ Lemelson-MIT Eurekafest.",
+    image: "/projects/inventeam1.png",
     link: "https://devpost.com/software/photon-hnrbsq",
   },
 ]
@@ -66,6 +75,9 @@ export default function Projects() {
                 <div className="project-info">
                   <h3 className="project-title">{project.title}</h3>
                   <p className="project-description">{project.description}</p>
+                  {project.winnerLabel && (
+                    <span className="winner-badge">{project.winnerLabel}</span>
+                  )}
                 </div>
               </article>
             </a>
