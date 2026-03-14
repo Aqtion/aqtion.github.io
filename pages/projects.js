@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: "Synapse",
-    winnerLabel: "Winner @ HackIllinois 2026 & Best Use of Cloudflare.",
+    winnerLabel: "Winner @ HackIllinois 2026 & Best Use of Cloudflare",
     description:
       "The most complete, scalable UI/UX feedback loop for developers. Turns user emotions, clicks, intent and direct, unfiltered feedback into automatic PRs.",
     image: "/projects/synapse.png",
